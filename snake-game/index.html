@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background: #f0f0f0; /* Add a background color */
+            }
+            #gameCanvas {
+                border: 3px solid black;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+                border-radius: 10px; /* Add rounded corners */
+            }
+            #score {
+                color: red;
+                position: absolute;
+                top: 10px;
+                font-size: 20px; /* Increase the font size */
+                font-family: 'Arial'; /* Change the font */
+                background: #fff; /* Add a background color */
+                padding: 10px; /* Add some padding */
+                border-radius: 5px; /* Add rounded corners */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Score display -->
+        <p id="score">Score: 0</p>
+
+        <!-- Your canvas element -->
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+        <!-- Include your JavaScript file -->
+        <script src="snake.js"></script>
+    </body>
+</html>

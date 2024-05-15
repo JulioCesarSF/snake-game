@@ -21,4 +21,4 @@ jobs:
       env:
         PYTHONPATH: ${{ github.workspace }}/py_game
       run: |
-        python -m unittest test_game.py
+        python -m unittest test_game

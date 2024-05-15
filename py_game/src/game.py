@@ -37,4 +37,6 @@ def play_game():
     else:
         print("Goodbye!")
 
-play_game()
+# game.py
+if __name__ == "__main__":
+    play_game()

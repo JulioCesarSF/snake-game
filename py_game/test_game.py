@@ -1,5 +1,5 @@
 import unittest
-from py_game.src.game import get_game_result
+from py_game.src.py_game import get_game_result
 
 class TestGame(unittest.TestCase):
     def test_get_game_result(self):
